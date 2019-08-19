@@ -1,0 +1,7 @@
+.DS_Store
+*.swp
+log/*.log
+*.sqlite3
+.idea/*
+manage.py
+*.pyc
