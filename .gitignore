@@ -3,5 +3,4 @@
 log/*.log
 *.sqlite3
 .idea/*
-manage.py
 *.pyc
