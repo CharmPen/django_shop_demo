@@ -1,5 +1,5 @@
 from django.db import models
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 # Create your models here.
 
@@ -21,6 +21,7 @@ class Category(models.Model):
 
     def get_absolute_url(self):
         return reverse('shop:product_list_by_category',
+                       # kwargs={"category_slug":self.slug})
                        args=[self.slug])
 
 
